@@ -1,0 +1,63 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.tab-form {
+  margin: 0 auto;
+}
+
+.tab-form h1 {
+  text-align: center;
+}
+
+.tab-form-container {
+  margin: 0 auto;
+  /* border: 1px solid black; */
+}
+
+.tabs-header-container {
+  display: flex;
+  align-items: center;
+}
+
+.tabs-header-container .tab-header {
+  padding: 8px 16px;
+  font-weight: 500;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.tab-form-content {
+  border: 1px solid black;
+  padding: 16px;
+  height: 250px;
+}
+
+.tab-buttons-container {
+  display: flex;
+  gap: 16px;
+  margin: 20px;
+  justify-content: center;
+}
+
+.tab-buttons-container button {
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+/* Profile Tab Content */
+.profile-tab-content {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}
+
+/* Interest Tab Content */
+/* Settings Tab Content */

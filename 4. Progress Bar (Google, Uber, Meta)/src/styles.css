@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.progress-bar-lists {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.progress-bar-container {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.progress-bar-container .progress-bar {
+  width: 300px;
+  height: 20px;
+  border: 1px solid black;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.progress-indicator {
+  height: 100%;
+  background-color: greenyellow;
+  padding: 0 4px;
+  text-align: end;
+  transition: all 0.5s ease-out allow-discrete;
+}
+
+.progress-indicator span {
+  font-size: 14px;
+}
+
+.progress-percentage {
+  width: fit-content;
+  max-width: 68px;
+  height: 30px;
+  font-size: 12px;
+  text-align: center;
+  padding: 8px 12px;
+}

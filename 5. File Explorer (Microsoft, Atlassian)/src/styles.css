@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.file-explorer-container {
+  text-align: left;
+  margin: 4px auto;
+  /* width: 80%; */
+  padding-left: 16px;
+}
+
+.file-explorer-container .file-explorer-item {
+  margin: 4px auto;
+}
+
+.file-explorer-item-action {
+  display: flex;
+  align-items: center;
+}
+
+.file-explorer-item-action button {
+  display: flex;
+  align-items: center;
+}
+
+.item-name {
+  all: unset;
+  cursor: pointer;
+  /* background-color: rgba(233, 233, 233, 0.683); */
+  padding: 2px 8px;
+  border-radius: 4px;
+}
+
+.add-file-btn,
+.add-folder-btn,
+.delete-btn {
+  all: unset;
+  cursor: pointer;
+  padding: 2px 8px;
+  border-radius: 4px;
+}
+
+.input-ctn {
+  padding: 2px 24px;
+}
